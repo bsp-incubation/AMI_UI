@@ -4,8 +4,7 @@
     url: https://aws-codedeploy-ap-northeast-2.s3.amazonaws.com/latest/install
     dest: /home/ec2-user
    
-  
-
+   
 - name: install coedDeploy
   become: yes
   shell: |
